@@ -3,7 +3,7 @@
  * @author Jeterson Lordano  -  jetersonlordano.com.br
  */
 
-/*(function () {
+(function () {
 
     "use strict";
 
@@ -635,7 +635,4 @@
 
     }
 
-})();*/
-
-
-console.log('aleluia')
+})();
