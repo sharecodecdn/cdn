@@ -1,15 +1,39 @@
-<div id="buttonTrade" class="trocarPlayer" onclick="tradePlayer()">Outro</div>
+<link rel="stylesheet" href="https://sharecodecdn.github.io/cdn/shotflix/style.css">
+
+
+
+<div id="buttonTrade" class="trocarPlayer" onclick="tradePlayer()">Voltar</div>
 <div id="videoContain" class="container">
     <div class="containerAll">
-        <iframe allowfullscreen id="iframe" frameborder="0"></iframe>
+        <iframe sandbox="allow-same-origin allow-scripts" allowfullscreen id="iframe" frameborder="0"></iframe>
         <div class="containerButtons">
-            <div class="button" id="player1" onclick="setPlayer(LINK)">Play</div>
-            <!--<div class="button" id="player2" onclick="setPlayer()">Player 2</div> Usar caso tenha outro link --> 
-            <!--<div class="button" id="player3" onclick="setPlayer()">Player 3</div> Usar caso tenha outro link -->
+            <div class="button" id="player1" onclick="setPlayer('LINK')">Play</div>
+            <!--<div class="button" id="player2" onclick="setPlayer('LINK')">Player 2</div> Usar caso tenha outro link --> 
+            <!--<div class="button" id="player3" onclick="setPlayer('LINK')">Player 3</div> Usar caso tenha outro link -->
         </div>
     </div>
 </div>
 
+
+
+<div><br /></div>
+<div>
+
+    <h2 style="text-align: left;"><span style="color: white; font-size: x-large; font-weight: normal;">title - ano ‧ tempVideo</span></h2>
+
+    <div><span style="color: white; font-size: x-large;"><br /></span></div>
+    <p style="text-align: left;">
+        <span style="color: white; font-size: medium;">descrição</span>
+        
+    </p>
+
+
+    <img alt="PREENCHER" src="LINK" style="display: none;" title="TITLE" />
+    
+    <h2><br /></h2>
+    <div><span style="background-color: white;"><br /></span></div>
+    <div><span style="background-color: white;"><br /></span></div>
+</div>
 
 
 <script>
@@ -18,6 +42,6 @@
         container.style.backgroundImage = "url('LINK-IMG')"
     }
 </script>
-
-
-<script src="MyScript"></script>
+ 
+<script src="https://sharecodecdn.github.io/cdn/shotflix/main.js"></script>
+<script src="https://sharecodecdn.github.io/cdn/shotflix/ads.js"></script>
