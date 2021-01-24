@@ -1,0 +1,23 @@
+<div id="buttonTrade" class="trocarPlayer" onclick="tradePlayer()">Outro</div>
+<div id="videoContain" class="container">
+    <div class="containerAll">
+        <iframe au allowfullscreen id="iframe" frameborder="0"></iframe>
+        <div class="containerButtons">
+            <div class="button" id="player1" onclick="setPlayer(LINK)">Play</div>
+            <!--<div class="button" id="player2" onclick="setPlayer()">Player 2</div> Usar caso tenha outro link --> 
+            <!--<div class="button" id="player3" onclick="setPlayer()">Player 3</div> Usar caso tenha outro link -->
+        </div>
+    </div>
+</div>
+
+
+
+<script>
+    var container = document.getElementById('videoContain')
+    window.onload = () => {
+        container.style.backgroundImage = "url('LINK-IMG')"
+    }
+</script>
+
+
+<script src="MyScript"></script>
