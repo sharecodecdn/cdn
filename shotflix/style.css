@@ -10,7 +10,7 @@ body,html{
 }
 
 span.justificar{
-    text-align: justify;
+    text-align: justify !important;
 }
 
 
