@@ -40,7 +40,7 @@ a.banner-insta{
 @media screen and (max-width: 768px){
     .container{
         height: 90px;
-        margin-bottom: -15px;
+        margin-bottom: -20px;
     }
 
     .img{
